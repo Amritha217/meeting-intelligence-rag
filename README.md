@@ -30,7 +30,7 @@ Each chunk is classified into:
 
 ---
 
-### ✅ Hybrid Retrieval (IMPORTANT)
+### ✅ Hybrid Retrieval 
 
 * Combines:
 
@@ -127,4 +127,4 @@ streamlit run app.py
 
 ## 👨‍💻 Author
 
-Your Name
+Amritha Dileep Kumar
