@@ -104,24 +104,6 @@ streamlit run app.py
 * What tasks are assigned?
 * What discussions happened about the API?
 
----
-
-## 🎯 Why This Project Stands Out
-
-* Goes beyond basic RAG
-* Implements **time-aware retrieval**
-* Uses **structured metadata**
-* Combines **semantic + keyword search**
-* Shows **retrieval transparency**
-
----
-
-## 🚀 Future Improvements
-
-* LLM-based query understanding
-* Persistent database (PostgreSQL)
-* Multi-user support
-* Deployment (Streamlit Cloud / AWS)
 
 ---
 
