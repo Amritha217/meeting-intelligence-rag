@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 
-A Retrieval-Augmented Generation (RAG) system that analyzes meeting transcripts and enables intelligent querying over decisions, action items, and discussions.
+A Retrieval-Augmented Generation (RAG) system that analyzes meeting transcripts .
 
 Users can ask:
 
@@ -12,30 +12,19 @@ Users can ask:
 
 ---
 
-## 🔥 Key Features
+## 🔥 Key Feature
 
 ### ✅ Time-Aware Retrieval
 
 * Filters answers based on time (e.g., last week)
 * Enables temporal reasoning over meetings
 
-### ✅ Structured Metadata Tagging
-
-Each chunk is classified into:
-
-* decision
-* action_item
-* discussion
-* unresolved
 
 ---
 
-### ✅ Hybrid Retrieval 
+### ✅  Retrieval 
 
-* Combines:
-
-  * semantic search (embeddings)
-  * keyword matching
+* semantic search (embeddings)
 * Improves precision significantly
 
 ---
@@ -70,9 +59,9 @@ User Query
 ↓
 Query Understanding (intent + time)
 ↓
-Metadata Filtering (tag + date)
+Metadata Filtering (date)
 ↓
-Hybrid Retrieval (semantic + keyword)
+Retrieval (semantic )
 ↓
 LLM Generation (FLAN-T5)
 
@@ -85,18 +74,11 @@ LLM Generation (FLAN-T5)
 * **Embeddings**: sentence-transformers
 * **Vector DB**: ChromaDB
 * **Framework**: LangChain
-* **UI**: Streamlit
+
 
 ---
 
-## ▶️ How to Run
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
----
 
 ## 💡 Example Queries
 
